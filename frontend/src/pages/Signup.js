@@ -41,6 +41,7 @@ export default function Signup() {
                
         </div>
        <p>update from vs</p>
+       <p>update from git</p>
        
     </div>
     </>

@@ -1,0 +1,300 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+/*  Start Header.js css*/
+
+.headerrow1{
+  width: 100%; padding: 15px; box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; }
+.headerrow1 button{width: 100px;  background-color: #1171A1; color: white; border:none; padding: 5px;
+border-radius: 6px; font-weight: 600;}
+.headerrow1 button:hover{width: 100px; background-color: #1171A1; color: white; border:none; padding: 5px;
+border-radius: 6px; font-weight: 600;box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;}
+/*  End Header.js css*/
+
+/* Start Footer.js css*/
+.footerrow1{width: 100%; padding: 15px; box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; margin-top: 50px; }
+.footerrow1 button{width: 100px;  background-color: #1171A1; color: white; border:none; padding: 5px;
+  border-radius: 6px; font-weight: 600;}
+.footerrow1 button:hover{width: 100px;  background-color: #1171A1; color: white; border:none; padding: 5px;
+  border-radius: 6px; font-weight: 600;box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;}
+
+/* End Footer.js css*/
+
+/*  Start Home.js css*/
+.homerow1{  width: 100%; margin-top:80px;}
+
+
+/*  End Home.js css*/
+
+
+/*  Start Card.js css*/
+
+.card{ width: 18rem; overflow: hidden; margin-left: 25px; }
+.card img{ margin-top: 10px; border-radius: 5px; transition: all 0.5s ease-in-out;}
+.card img:hover{transform: scale(1.2); transition: all 0.5s ease-in-out; }
+.card-title{font-size: 16px; text-transform: uppercase; font-weight: 600; color: #0b6b9c;}
+.card-text{font-size: 15px; font-weight: 400;}
+
+/*  End Card.js css*/
+
+/*  Start Serverinstall.js css*/
+.sirow2{
+  width: 70%;  margin-top: 70px; 
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.sirow4{
+  width: 70%;  margin-top: 70px; 
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; background-color: black; color: white;
+}
+.sirow5 h5{
+  padding-left: 300px; margin-top: 70px;
+}
+  
+.sirow6{
+  width: 70%;  margin-top: 15px; 
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; background-color: black; color: white;
+}
+.sirow8{
+  width: 70%;  margin-top: 15px; 
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; background-color: black; color: white;
+}
+.sirow10{
+  width: 70%;  margin-top: 15px; 
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; background-color: black; color: white;
+}
+.sirow12{
+  width: 70%;  margin-top: 15px; 
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; background-color: black; color: white;
+}
+ #sp1{color: #1ea0f7;}
+ #sp2{color: #f0e990;}
+ #sp3{color: yellow;}
+ #sp4{color: #e88325;}
+ #sp5{color: #1ea0f7;}
+ #sp6{color: #f043ab;}
+ #sp7{color: #1adb6e;}
+ #sp8{color: #91d0eb;}
+ #sp9{color: #698c07;}
+ #sp10{color: #1adba8;}
+#gujfont{font-family: "Baloo Bhai 2", sans-serif; word-spacing: 5px;}
+
+
+.sirow2 h4{text-align: center;}
+.sirow4 span{color: yellow}
+.btnwc{width: 150px; color: white; background-color: black; border: 1px solid white; padding: 3px;
+border-radius: 5px;}
+.btnwc:hover{width: 150px; color: black; background-color: yellow; border: 1px solid yellow; padding: 3px;
+border-radius: 5px;}
+.swal2-confirm.swal2-styled{ color: white; background-color: #099ae3;}
+h2#swal2-title{color: #099ae3;}
+/*  End Serverinstall.js css*/
+
+
+/* Start Curd.js css*/
+.curdrow2{
+  width: 70%;  margin-top: 70px; flex-direction: row; flex-wrap: nowrap;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+.curdrow2 button{
+  width: 100px; margin-right:10px; background-color: #0b6b9c; color: white;  cursor: pointer; border: 2px solid #0b6b9c; border-radius:5px; 
+}
+.curdrow2 button:hover{
+  width: 100px; margin-right:10px; background-color: #0b6b9c; color: white;  cursor: pointer; border: 2px solid #0b6b9c; border-radius:5px; box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px; 
+}
+
+.curdrow1 .btnadd{
+  height:100px; width: 100px; border-radius: 50px;  margin-top: 30px; position: relative;
+  cursor: pointer; border: 2px solid #0b6b9c; background-color: white;
+}
+.curdrow1 .btnadd:hover{
+  height:100px; width: 100px; border-radius: 50px;  margin-top: 30px; position: relative;
+  cursor: pointer;  background-color: #0b6b9c; color: white;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.tbl{ width: 70%;}
+.tbl .btnup{
+  width: 100px; margin-right:10px; background-color: white;  cursor: pointer; border: 2px solid #346e13; border-radius:5px; 
+}
+.tbl .btnup:hover{
+  width: 100px; margin-right:10px; background-color: #346e13; color: white; cursor: pointer; border: none;
+  border: 2px solid #346e13; border-radius:5px;
+}
+.tbl .btndl{
+  width: 100px; margin-right:10px; background-color:white;  cursor: pointer; border: 2px solid #ed1307; border-radius:5px;
+}
+.tbl .btndl:hover{
+  width: 100px; margin-right:10px; background-color:#ed1307; color: white; cursor: pointer; border: none;
+  border: 2px solid #ed1307; border-radius:5px;
+}
+/* End Curd.js css*/
+
+
+.sirow8 .sirow8col1{
+   border: 2px solid white; width: 48%; padding: 10px; margin-left: 10px; border-radius:10px;}
+.sirow8 .sirow8col2{
+   border: 2px solid white; width: 48%; padding: 10px; border-radius:10px;}
+.sirow8 .sirow8col2 img{
+   width: 100%; height:100%;}
+.sirow8{gap: 20px; padding:20px;}
+
+.sirow10{padding:20px;}
+.sirow10 .sirow8col1{
+   border: 2px solid white; width: 48%; padding: 10px; margin-left: 10px; border-radius:10px;}
+.sirow10 .sirow8col2{
+   border: 2px solid white; width: 48%; padding: 10px; border-radius:10px;}
+.sirow10 .sirow8col2 img{
+   width: 100%; height:100%;}
+.sirow10{gap: 20px;}
+
+.sirow12{padding:20px;}
+.sirow12 .sirow12col1{
+   border: 2px solid white; width: 48%; padding: 10px; margin-left: 10px; border-radius:10px;}
+.sirow12 .sirow12col2{
+   border: 2px solid white; width: 48%; padding: 10px; border-radius:10px;}
+.sirow12 .sirow12col2{
+   border: 2px solid white; width: 48%; padding: 10px; border-radius:10px;}
+.sirow12 .sirow12col2 img{
+   width: 100%; height:100%;}
+.sirow12{gap: 20px;}
+
+
+/* Start Crudapi.js Css*/
+
+.apirow2{
+  width: 70%;  margin-top: 15px; 
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; margin-top: 50px;
+}
+
+.apirow3 .apicol2 button{
+  width: 200px; margin-right:10px; background-color: orange; color: black;  cursor: pointer; border: none; border-radius:5px;
+  padding: 5px; box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px; font-weight: 500;
+ }
+.apirow4{
+  width: 70%;  margin-top: 30px; 
+  
+}
+.apirow6{
+  width: 70%;  margin-top: 15px; 
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; background-color: black; color: white; 
+}
+/* End Crudapi.js Css*/
+
+/* Start Addrecord.js Css*/
+.adrrow2{
+  width: 70%;  margin-top: 15px; background-color: #1171A1; color:white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; margin-top: 50px;
+}
+.adrrow3{
+  width: 40%;  margin-top: 15px;  margin-top: 50px;
+}
+.addrrow3 .backcrud{
+    width: 130px; height: 130px; border-radius: 50%; background-color: orange; color:black; border: none;
+    margin-left: 1050px; margin-top: 60px; 
+}
+.addrrow3 .backcrud{
+    width: 130px; height: 130px; border-radius: 50%; background-color: orange; color:black; border: none;
+    margin-left: 1050px; margin-top: 60px; box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+/* End Addrecord.js Css*/
+
+
+
+/* Start Coform.js Css*/
+.cofrow2{ width: 30%;   margin-top: 70px;}
+.coformbtn{
+  width: 200px; background-color: #1171A1; color:white; font-weight:400;
+}
+.coformbtn:hover{
+  width: 200px; background-color: #1171A1; color:white; font-weight:400;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+/* End Coform.js Css*/
+
+/* Start Updaterecord.js css*/
+.updrow2{
+  width: 70%;  margin-top: 15px; background-color: green; color: white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; margin-top: 50px;
+}
+
+/* End Updaterecord.js css*/
+/* start Updateform.js css*/
+.updfrow2{ width: 30%;   margin-top: 70px;}
+.updatebtn{
+  width: 200px; background-color: green; color:white; font-weight:400;
+}
+.updatebtn:hover{
+  width: 200px; background-color: green; color:white; font-weight:400;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.updrrow3 .backcrud{
+  width: 130px; height: 130px; border-radius: 50%; background-color: orange; color:black; border: none;
+  margin-left: 1050px; margin-top: 60px; 
+}
+.updrrow3 .backcrud{
+  width: 130px; height: 130px; border-radius: 50%; background-color: orange; color:black; border: none;
+  margin-left: 1050px; margin-top: 60px; box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+/* End Updateform.js css*/
+
+<<<<<<< HEAD
+=======
+/* Start Login.js css*/
+.loginrow2{
+  width: 70%;  margin-top: 15px; background-color: #1171A1; color:white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; margin-top: 50px;
+}
+
+.loginrow4{
+  width: 40%; height: 400px; margin-top: 100px; 
+  background-image:url('../assets/loginbg.png'); background-repeat: no-repeat;
+  background-size: 700px 400px;  
+}
+.loginrow4 h5{ margin-top: 50px;}
+.loginrow4 .forgotpass{ font-size:14px; margin-left: 50px; font-weight: bold; width: 250px;}
+.loginrow4 .forgotpass:hover{ margin-bottom: 0px; font-size:14px; margin-left: 50px; font-weight: bold; color:blue; cursor: pointer;}
+.loginrow4 .form-control{
+  width: 300px;
+}
+.loginrow4 button{
+  width: 150px; height:30px;  padding:0px; margin-left:14px;
+  background-color:black; color:white; border: none;
+}
+.regquote{margin-bottom:30px;}
+.regquote span{font-weight: bold; color: brown;}
+
+
+/* Start Login.js css*/
+
+/* Start Signup.js css*/
+.signuprow2{
+  width: 70%;  margin-top: 15px; background-color: #1171A1; color:white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; margin-top: 50px;
+}
+
+.signuprow4{
+  width: 40%; height: 400px; margin-top: 100px; 
+  background-image:url('../assets/loginbg.png'); background-repeat: no-repeat;
+  background-size: 700px 400px;  
+}
+.signuprow4 h5{ margin-top: 15px;}
+.signuprow4 .form-control{
+  width: 300px;
+}
+.signuprow4 button{
+  width: 150px; height:30px;  padding:0px; margin-left:14px;
+  background-color:black; color:white; border: none;
+}
+.signuprow4 .regquote{margin-bottom:10px;}
+.signuprow4 span{font-weight: bold; color: brown; }
+
+
+/* End Signup.js css*/
+
+>>>>>>> ee9a8b9 (25.10.24)
+
+
+
+

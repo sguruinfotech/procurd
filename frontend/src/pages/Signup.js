@@ -40,8 +40,7 @@ export default function Signup() {
                 <div className='regquote'>Already have an account?  <span><Link to="/Login">Login</Link></span></div>
                
         </div>
-       <p>update from vs</p>
-       <p>update from git</p>
+       
        
     </div>
     </>

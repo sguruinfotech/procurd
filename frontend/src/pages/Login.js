@@ -28,8 +28,7 @@ export default function Login() {
                 <div className='regquote'>Don't have an account?  <span><Link to="/Signup">Register</Link></span></div>
                
         </div>
-        
-       <h1> this text is from github </h1>
+  
     </div>
     </>
   )

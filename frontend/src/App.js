@@ -29,7 +29,7 @@ function App() {
       <Route path="/curd" element={<Curd />} />  
       <Route path="/crudapi" element={<Crudapi />} />  
       <Route path="/addrecord" element={<Addrecord />} />  
-      <Route path="/updaterecord" element={<Updaterecord />} />  
+      <Route path="/updaterecord/:id" element={<Updaterecord />} />  
       <Route path="/login" element={<Login />} />  
       <Route path="/signup" element={<Signup />} />  
       <Route path="/forgotpass" element={<Forgotpass />} />  

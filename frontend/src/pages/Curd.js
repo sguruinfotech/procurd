@@ -78,7 +78,7 @@ export default function Curd() {
                       <td>{el.email}</td>
                       <td>{el.mobile}</td>
                       <td>
-                        <Link to={`/updatepage/${el._id}`}><button className="btnup">Update</button></Link>
+                        <Link to={`/updaterecord/${el._id}`}><button className="btnup">Update</button></Link>
                         <button onClick={() => handleDelete(el._id)} className="btndl" >Delete</button>
                       </td>
                 </tr>

@@ -2,6 +2,13 @@ import React, { useState } from "react";
 import axios from 'axios';
 import {useNavigate} from 'react-router-dom';
 import Swal from 'sweetalert2';
+import { FaUser } from "react-icons/fa";
+import ReactDOMServer from 'react-dom/server';
+
+
+
+
+
 
 axios.defaults.baseURL="http://localhost:8080/"
 
@@ -33,12 +40,26 @@ export default function Coform() {
         if(data.data.sucsess){
           Swal.fire({
           position: "top-center",
-          icon: "success",
+          html: ReactDOMServer.renderToString(<FaUser size="3em" color="orange" />),
+          
           title: "Your record add successfuly !",
+          customClass: {
+                  title: 'my-title',
+                  icon: 'my-icon',
+           },
           showConfirmButton: false,
           timer: 1800
         });
          navigate('/Curd');
+         }
+         else{
+          Swal.fire({
+            position: "top-center",
+            icon: "success",
+            title: "Your record not added successfuly !",
+            showConfirmButton: false,
+            timer: 1800
+          });
          }
       }
            

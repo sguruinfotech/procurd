@@ -319,5 +319,13 @@ h2#swal2-title{color: #099ae3;}
 
 /* End Forgotpass.js css*/
 
-
-
+.swal2-confirm.swal2-styled{ color: white; background-color: #099ae3;}
+/* h2#swal2-title{color: red;} */
+.my-title{
+  color: red !important;
+  font-size: 50px;
+}
+.my-icon{
+  color: red !important;
+  font-size: 15px;
+}

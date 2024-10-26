@@ -10,6 +10,9 @@ import Updaterecord from './pages/Updaterecord';
 import Login from './pages/Login';
 import Signup from './pages/Signup';
 import Forgotpass from './pages/Forgotpass';
+import Updatepage from './pages/Updatepage';
+
+
 
 
 
@@ -30,7 +33,7 @@ function App() {
       <Route path="/login" element={<Login />} />  
       <Route path="/signup" element={<Signup />} />  
       <Route path="/forgotpass" element={<Forgotpass />} />  
-      
+      <Route path='/updatepage/:id' element={<Updatepage/>}></Route>
       </Routes>
     </BrowserRouter>
   );

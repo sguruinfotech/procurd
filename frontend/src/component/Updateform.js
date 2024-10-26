@@ -1,5 +1,6 @@
 import React, { useEffect, useState }  from "react";
 import axios from 'axios';
+import { Link } from "react-router-dom";
 
 
 
@@ -49,8 +50,8 @@ export default function Updateform() {
                                                 <input type="number" className="form-control" name="mobile" id="contact" value={el.mobile}/>
                                             </div>
                         
-
-                                            <button type="submit" className="btn updatebtn" onClick={`{../pages/Update${el._id}`}>Update</button>
+                                            <Link to={`/updatepage/${el._id}`}>Update</Link>
+                                            {/* <button type="submit" className="btn updatebtn" onClick={`{../pages/Update${el._id}`}>Update</button> */}
                                      </form>
                                  </div>
                             </div>

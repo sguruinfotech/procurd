@@ -60,14 +60,24 @@ app.delete("/delete/:id", async(req, res)=>{
 
 // Update Data Crud Operation
 
-app.put("/update", async(req, res)=>{
-    console.log(req.body)
-    const { id, ...rest} = req.body
-    console.log(rest)
-    const data = await userModel.updateOne({_id : id}, rest)
-    res.json({sucsess: true, massage : "Data Updated SucsessFully ", data : data})
+app.put('/update/:id', async (req, res) => {
+    try {
+      const user = await userModel.findByIdAndUpdate(req.params.id, req.body, { new: true });
+      res.json(user);
+    } catch (error) {
+      res.status(500).json({ message: error.message });
+    }
+  });
 
-})
+// Get Data based on ID for update
+app.get('/:id', async (req, res) => {
+    try {
+      const user = await userModel.findById(req.params.id);
+      res.json(user);
+    } catch (err) {
+      res.status(500).send('User not found');
+    }
+  });
 // End CRUD Operation API
 
 // Start SignUp form API

@@ -3,7 +3,7 @@ import "../css/App.css";
 import Header from "../component/Header";
 import { Link } from "react-router-dom";
 import axios from 'axios';
-// import Swal from 'sweetalert2';
+import Swal from 'sweetalert2';
 
 axios.defaults.baseURL="http://localhost:8080/"
 
@@ -26,10 +26,20 @@ export default function Curd() {
     const data = await axios.delete("/delete/" + id)
    
    if(data.data.sucsess){
+    
+    Swal.fire({
+      position: "top-center",
+      icon: "success",
+      title: "Your record deleted successfuly !",
+      color: "#e28743",
+      showConfirmButton: false,
+      timer: 1800
+      
+    });
     getFetchData()
-
-    alert("Data deleted Sucessfully......")
+    
    }
+  
   }
  
  

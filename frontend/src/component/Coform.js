@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import axios from 'axios';
 import {useNavigate} from 'react-router-dom';
-
+import Swal from 'sweetalert2';
 
 axios.defaults.baseURL="http://localhost:8080/"
 
@@ -31,7 +31,13 @@ export default function Coform() {
         const data = await axios.post("/sales/create", crudData)
         console.log(data)
         if(data.data.sucsess){
-         alert("data saved successfully....")
+          Swal.fire({
+          position: "top-center",
+          icon: "success",
+          title: "Your record add successfuly !",
+          showConfirmButton: false,
+          timer: 1800
+        });
          navigate('/Curd');
          }
       }

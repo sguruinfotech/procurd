@@ -19,7 +19,9 @@ const PORT = process.env.PORT || 8080
 //     })
 // })
 
-// schema
+// Start CRUD Operation API
+
+// Shema CRUD Operation
 const schemaData = mongoose.Schema({
     name: String,
     email: String,
@@ -27,27 +29,27 @@ const schemaData = mongoose.Schema({
 
 }) 
 
-// Model
+// Model CRUD Operation
 
 const userModel = mongoose.model("sales", schemaData)
 
-// Add Record
+// Add Record  Crud Operation 
 
-app.post("/create", async(req, res) =>{
+app.post("/sales/create", async(req, res) =>{
     console.log(req.body)
     const data = new userModel(req.body)
     await data.save()
     res.json({sucsess: true, massage : "Data save SucsessFully ", data : data})
 })
 
-// Fetch Data
+// Fetch Data Crud Operation
 
 app.get("/",async(req, res) => {
     const data = await userModel.find({})
     res.json({sucsess: true, data : data})
 })
 
-// Delete Data
+// Delete Data Crud Operation
 
 app.delete("/delete/:id", async(req, res)=>{
     const id = req.params.id
@@ -56,7 +58,7 @@ app.delete("/delete/:id", async(req, res)=>{
     res.json({sucsess: true, massage : "Data Deleted SucsessFully ", data : data})
 })
 
-// Update Data
+// Update Data Crud Operation
 
 app.put("/update", async(req, res)=>{
     console.log(req.body)
@@ -66,6 +68,32 @@ app.put("/update", async(req, res)=>{
     res.json({sucsess: true, massage : "Data Updated SucsessFully ", data : data})
 
 })
+// End CRUD Operation API
+
+// Start SignUp form API
+
+// Schema Signup form
+const userData = mongoose.Schema({
+    name: String,
+    city: String,
+    email: String,
+    username: String,
+    password: String,
+    
+
+}) 
+// Model Signup form
+    const userProfile = mongoose.model("userpro", userData)
+
+// Add Signup form   
+
+app.post("/userpro/create", async(req, res) =>{
+    console.log(req.body)
+    const data = new userProfile(req.body)
+    await data.save()
+    res.json({sucsess: true, massage : "Data save SucsessFully ", data : data})
+})
+
 
 //  connect to mongodb
 

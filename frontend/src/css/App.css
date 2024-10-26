@@ -239,8 +239,6 @@ h2#swal2-title{color: #099ae3;}
 }
 /* End Updateform.js css*/
 
-<<<<<<< HEAD
-=======
 /* Start Login.js css*/
 .loginrow2{
   width: 70%;  margin-top: 15px; background-color: #1171A1; color:white;
@@ -256,7 +254,7 @@ h2#swal2-title{color: #099ae3;}
 .loginrow4 .forgotpass{ font-size:14px; margin-left: 50px; font-weight: bold; width: 250px;}
 .loginrow4 .forgotpass:hover{ margin-bottom: 0px; font-size:14px; margin-left: 50px; font-weight: bold; color:blue; cursor: pointer;}
 .loginrow4 .form-control{
-  width: 300px;
+  width: 300px; padding-left: 35px;
 }
 .loginrow4 button{
   width: 150px; height:30px;  padding:0px; margin-left:14px;
@@ -265,8 +263,11 @@ h2#swal2-title{color: #099ae3;}
 .regquote{margin-bottom:30px;}
 .regquote span{font-weight: bold; color: brown;}
 
+.loginrow4 svg{position: absolute; font-size: 19px; margin-top: 09px; margin-left: 8px; color: rgba(0,0,0,0.7 ) }
 
-/* Start Login.js css*/
+
+/* End Login.js css*/
+
 
 /* Start Signup.js css*/
 .signuprow2{
@@ -281,7 +282,7 @@ h2#swal2-title{color: #099ae3;}
 }
 .signuprow4 h5{ margin-top: 15px;}
 .signuprow4 .form-control{
-  width: 300px;
+  width: 300px; padding-left: 35px;
 }
 .signuprow4 button{
   width: 150px; height:30px;  padding:0px; margin-left:14px;
@@ -289,11 +290,35 @@ h2#swal2-title{color: #099ae3;}
 }
 .signuprow4 .regquote{margin-bottom:10px;}
 .signuprow4 span{font-weight: bold; color: brown; }
-
-
+.signuprow4 svg{position: absolute; font-size: 19px; margin-top: 09px; margin-left: 8px; color: rgba(0,0,0,0.7 ) }
 /* End Signup.js css*/
 
->>>>>>> ee9a8b9 (25.10.24)
+/* Start Forgotpass.js css*/
+.forgotpassrow2{
+  width: 70%;  margin-top: 15px; background-color: #1171A1; color:white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; margin-top: 50px;
+}
+
+.forgotpassrow4{
+  width: 40%; height: 400px; margin-top: 100px; 
+  background-image:url('../assets/loginbg.png'); background-repeat: no-repeat;
+  background-size: 700px 400px;  
+}
+.forgotpassrow4 h5{ margin-top: 50px;}
+
+.forgotpassrow4 .form-control{
+  width: 300px; padding-left: 35px;
+}
+.forgotpassrow4 button{
+  width: 150px; height:30px;  padding:0px; margin-left:14px;
+  background-color:black; color:white; border: none;
+}
+.forgotpassrow4 svg{position: absolute; font-size: 19px; margin-top: 09px; margin-left: 8px; color: rgba(0,0,0,0.7 ) }
+
+
+
+/* End Forgotpass.js css*/
+
 
 
 

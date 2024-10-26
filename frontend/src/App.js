@@ -7,12 +7,10 @@ import Curd from './pages/Curd';
 import Crudapi from './pages/Crudapi';
 import Addrecord from './pages/Addrecord';
 import Updaterecord from './pages/Updaterecord';
-<<<<<<< HEAD
-=======
 import Login from './pages/Login';
 import Signup from './pages/Signup';
+import Forgotpass from './pages/Forgotpass';
 
->>>>>>> ee9a8b9 (25.10.24)
 
 
 
@@ -29,11 +27,9 @@ function App() {
       <Route path="/crudapi" element={<Crudapi />} />  
       <Route path="/addrecord" element={<Addrecord />} />  
       <Route path="/updaterecord" element={<Updaterecord />} />  
-<<<<<<< HEAD
-=======
       <Route path="/login" element={<Login />} />  
       <Route path="/signup" element={<Signup />} />  
->>>>>>> ee9a8b9 (25.10.24)
+      <Route path="/forgotpass" element={<Forgotpass />} />  
       
       </Routes>
     </BrowserRouter>

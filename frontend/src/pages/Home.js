@@ -3,12 +3,9 @@ import "../css/App.css";
 import Card from '../component/Card';
 import serinst from '../assets/serinst.png';
 import card1 from '../assets/curd.png';
-<<<<<<< HEAD
-=======
 
 import login from '../assets/login.png';
 
->>>>>>> ee9a8b9 (25.10.24)
 import Header from '../component/Header';
 import Footer from '../component/Footer';
 
@@ -31,18 +28,11 @@ export default function Home() {
                 crdbtn="Process"
                 path={"/Crudapi"}
               />
-<<<<<<< HEAD
-=======
 
->>>>>>> ee9a8b9 (25.10.24)
           
             </div>
-              <p>from git hub</p>
-              <p>form VS code</p>
-<<<<<<< HEAD
-=======
-
-              <Card
+              
+            <Card
                 crdimg={login}
                 title="SignUp & Login"
                 text="SignUp and login Opration in your react project with MongoDB"
@@ -52,7 +42,6 @@ export default function Home() {
           
             
               
->>>>>>> ee9a8b9 (25.10.24)
       <Footer/>
     </>
   )

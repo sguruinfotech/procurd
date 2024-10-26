@@ -1,6 +1,9 @@
 import React from 'react'
 import Header from '../component/Header'
 import { Link } from 'react-router-dom'
+import { FaUserTie } from "react-icons/fa";
+import { FaKey } from "react-icons/fa6";
+
 
 export default function Login() {
   return (
@@ -16,15 +19,15 @@ export default function Login() {
                 <h5>Login...</h5>
                 <form>
                     <div className='mb-3'>
-                    <input type="Username" class="form-control" id="username" placeholder='User Name'/>
+                    <FaUserTie /><input type="Username" class="form-control" id="username" placeholder='User Name'/>
                     </div>
                     <div className=''>
-                    <input type="password" class="form-control" id="password" placeholder='Password'/>
+                    <FaKey /><input type="password" class="form-control" id="password" placeholder='Password'/>
                     </div>
                 </form>
                 <button class="btn btn-primary" type="submit">Login</button>
                 
-                <div className='forgotpass'>FORGOT PASSWORD</div>
+                <div className='forgotpass'><Link to="/Forgotpass">FORGOT PASSWORD</Link></div>
                 <div className='regquote'>Don't have an account?  <span><Link to="/Signup">Register</Link></span></div>
                
         </div>

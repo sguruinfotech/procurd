@@ -7,7 +7,7 @@ axios.defaults.baseURL="http://localhost:8080/"
 
 export default function Coform() {
 
-    const [formData, setformData] = useState({
+    const [crudData, setcrudData] = useState({
         name: "",
         email: "",
         mobile: "",
@@ -19,7 +19,7 @@ export default function Coform() {
   
       const hendleOnchange = (e) => {
         const {value, name} = e.target
-        setformData((preve) => {
+        setcrudData((preve) => {
           return{
             ...preve,
             [name] : value
@@ -28,7 +28,7 @@ export default function Coform() {
       }
       const handleSubmit = async(e) =>{
         e.preventDefault()
-        const data = await axios.post("/create", formData)
+        const data = await axios.post("/sales/create", crudData)
         console.log(data)
         if(data.data.sucsess){
          alert("data saved successfully....")
